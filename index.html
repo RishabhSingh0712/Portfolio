@@ -1,27 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="./style.css">
-   </head>
+    <title>Rishabh Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
 <body>
-    <div>
-                <nav>
-            <ul>
-                <a href="">About me</a>
-                <a href="">Skills</a>
-                <a href="">Project</a>
-                <a href="">Contact</a>
-            </ul>
+    <header>
+        <nav>
+            <div class="left">
+                <h1>Rishabh's Portfolio</h1>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#project">Project</a></li>
+
+                    <!-- <li><a href="">Skill</a></li> -->
+
+                    <li><a href="#connect">Contact me</a></li>
+
+
+                </ul>
+            </div>
         </nav>
-            <h1>Hi, I'm Rishabh Singh</h1>
-            <p>A Frontend developer.</p>
-            <p>Hii everyone, <br> am Rishabh Singh </p>
-            <p>I have done my higher education M.Sc. in Bio Chemistry and I am also doing Full Stack Development Course in PW Skills. I have completed HTML, CSS, JavaScript and ReactJS and finally I am looking for an internship.</p>
-        </div> 
-        <img src="./assets/Rishabh.png.JPG" alt="" height="400px" width="300px">
+    </header>
+
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi My Name is
+
+                <span class="purple">Rishabh</span>
+                <div>and I m a Passionate</div>
+                <!-- <div>Web Developer</div> -->
+                <span id="element"></span>
+                <div>
+                    <div class="hire">
+                    <a href="./assets/Rishabh_Singh_Resume.pdf"download="My_CV" class="download-button">
+                        Download Resume
+                      </a>
+                    </div> 
+
+                </div>
+
+
+            </div>
+
+            <div class="rightSection">
+                <img class="portfolio" src="./assets/IMG_20210423_160238_467.jpg" alt="" srcset="">
+            </div>
+        </section>
+        <!-- <hr /> -->
+        <!-- project section -->
+     
+      
+        <section class="project-section" id="project">
+
+            <h1 class="projecth1">My Projects</h1>
+           
+          
+
+            <div class="project-container">
+
+
+                <div class="project-card">
+                    <img src="./project/project5.jpg" alt="">
+                    <h1 class="project">Bussiness Consult</h1>
+                    <p>Project 1</p>
+                    <p>Html Css </p>
+                    <div class="show-case">
+                        <a href="https://bussinessconsult.netlify.app/ "target="_blank"><button class="btn">Live</button></a>
+
+                        <a href="https://github.com/aryan-ya/Bussinesspage "target="_blank"><button class="btnn">Github</button></a>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <img src="./images/Screenshot (606).png" alt="">
+                    <h1 class="project-cardh1">Food Website</h1>
+                    <p>Project 2</p>
+                    <p>Html Css</p>
+                    </p>
+                    <div class="show-case">
+                        <a href="https://restaurants-landingproject.netlify.app/ "target="_blank"><button class="btn">Live</button></a>
+
+                        <a href="https://github.com/aryan-ya/Rest" target="_blank"><button class="btnn">Github</button></a>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="project-card">
+                    <img src="./project/Project3.jpg" alt="">
+                    <h1 class="project-cardh1">Travel</h1>
+                    <p>Project3</p>
+                    <p>Html Css</p>
+                    <div class="show-case">
+                        <a href="https://travvels-website.netlify.app/"target="_blank"><button class="btn" target="_blank">Live</button></a>
+
+                        <a href="https://github.com/aryan-ya/Travel"target="_blank"><button class="btnn" target="_blank">Github</button></a>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <img src="/project/Projectt5.jpg" alt="">
+                    <h1 class="project-cardh1">Be focus page</h1>
+                    <p>Project 4</p>
+                    <p>Html Css </p>
+                    </p>
+                    <div class="show-case">
+                        <a href="https://medifine-12.netlify.app
+
+                        "target="_blank"><button class="btn">Live</button></a>
+
+                        <a href="https://github.com/aryan-ya/Medifine"target="_blank"><button class="btnn" target="_blank">Github</button></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="./project/Project6.jpg" alt="">
+                    <h1 class="project-cardh1">Blurring </h1>
+                    <p>Project 5</p>
+                    <p>Html Css and JavaScript</p>
+                    </p>
+                    <div class="show-case">
+                        <a href="https://blurring-project.netlify.app" target="_blank"><button class="btn" >Live</button></a>
+
+                        <a href="https://github.com/aryan-ya/blurringjs" target="_blank"><button class="btnn" target="_blank">Github</button></a>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <img src="./project/Project7.jpg" alt="">
+                    <h1>Ipl Teams</h1>
+                    <p>Project6</p>
+                    </p>
+                    <p>HTML, CSS and JavaScript</p>
+                    <div class="show-case">
+                        <a href="https://csk-ipl-team.netlify.app/"target="_blank"><button class="btn" target="_blank">Live</button></a>
+
+                        <a href="https://github.com/aryan-ya/Cskprojectt" target="_blank"><button class="btnn">Github</button></a>
+                    </div>
+                </div>
+
+
+
+                <div class="project-card">
+                    <img src="./project/Projectt7.jpg" alt="">
+                    <h1>Counter</h1>
+                    <p>Project7</p>
+                    <p>HTML, CSS and JavaScript</p>
+
+                    <div class="show-case">
+                        <a href=" https://counter-21.netlify.app
+
+                        "target="_blank"><button class="btn">Live</button></a>
+
+                        <a href="https://github.com/aryan-ya/Counter"target="_blank"><button class="btnn">Github</button></a>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <img src="./project/Project8.jpg" alt="">
+                    <h1>Weather </h1>
+                    <p>Project8</p>
+                    <p>HTML, CSS and JavaScript</p>
+                    </p>
+                    <div class="show-case">
+                        <a href="https://weatherapiprojects.netlify.app/
+
+                        "target="_blank"><button class="btn">Live</button></a>
+
+                        <a href="https://github.com/aryan-ya/Weather_project"target="_blank"><button class="btnn">Github</button></a>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="project-card">
+                    <img src="./project/Project10.png" alt="">
+                    <h1>Campus-clone</h1>
+                    <p>Project9</p>
+                    <p> HTML CSS JavaScript</p>
+                    </p>
+                    <div class="show-case">
+                        <a href="https://campus-clones.netlify.app/
+
+                        "target="_blank"><button class="btn">Live</button></a>
+
+                        <a href="https://github.com/aryan-ya/Campus-clone"target="_blank"><button class="btnn">Github</button></a>
+                    </div>
+                </div>
+
+
+
+
+                
+                <div class="project-card">
+                    <img src="./project/Project13.png" alt="">
+                    <h1>Ecommerce-clone</h1>
+                    <p>Project10</p>
+                    <p> HTML CSS JavaScript</p>
+                    </p>
+                    <div class="show-case">
+                        <a href="https://glowingproject.netlify.app
+
+
+
+                        "target="_blank"><button class="btn">Live</button></a>
+
+                        <a href="https://github.com/aryan-ya/Glowingprojects"target="_blank"><button class="btnn">Github</button></a>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <img src="./project/Project9.png" alt="">
+                    <h1>TIC-TAC-TOE</h1>
+                    <p>Project11</p>
+                    <p> HTML CSS  React</p>
+                    </p>
+                    <div class="show-case">
+                        <a href="
+
+                        https://ticc-tacxc-toeee.netlify.app
+
+
+
+                        "target="_blank"><button class="btn">Live</button></a>
+
+                        <a href="https://github.com/aryan-ya/react-tic-tac"target="_blank"><button class="btnn">Github</button></a>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="project-card">
+                    <img src="./project/Project11.png" alt="">
+                    <h1>Bootstrap Project</h1>
+                    <p>Project12</p>
+                    <p> HTML CSS  Bootstrap</p>
+                    </p>
+                    <div class="show-case">
+                        <a href="
+
+                        https://tindogbootstrap-project.netlify.app/
+
+
+
+                        "target="_blank"><button class="btn">Live</button></a>
+
+                        <a href="https://github.com/aryan-ya/Bootstrap-project"target="_blank"><button class="btnn">Github</button></a>
+                    </div>
+                </div>
+
+
+
+
+                <div class="project-card">
+                    <img src="./project/Project12.png" alt="">
+                    <h1>IMDB-CLONE</h1>
+                    <p>Project13</p>
+                    <p> HTML CSS  React</p>
+                    </p>
+                    <div class="show-case">
+                        <a href="
+
+                        https://movie-webiste12.netlify.app
+
+
+                        "target="_blank"><button class="btn">Live</button></a>
+
+                        <a href="https://github.com/aryan-ya/IMDB-Clone-React"target="_blank"><button class="btnn">Github</button></a>
+                    </div>
+                </div>
+
+            
+
+        </section>
+
+            
+        <footer class="footer-container" id="connect">
+            <div class="footer-logo">
+              <h1 class="Projecth1">Connect With Me</h1>
+            </div>
+            <div class="social-icons">
+                <a href="https://github.com/Rishabh071296
+                " target="_blank"><i class="fa-brands fa-github fa-3x"></i></a>
+                <a href="https://www.linkedin.com/in/rishabh-singh-90b208273" target="_blank"><i class="fa-brands fa-linkedin fa-3x"></i></a>
+              
+            </div>
+ 
+        </main>          
     
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Fronted Developer.', 'Backend Developer.'],
+            typeSpeed: 100,
+
+        });
+
+
+
+    </script>
+
 </body>
+
 </html>
+
+
+
+<!-- -->
+
