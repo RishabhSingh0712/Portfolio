@@ -67,7 +67,7 @@ li a {
 hr {
     margin: 20px;
     border: 0;
-    background: rgb(11, 11, 97);
+    background: rgb(7, 155, 204);
     height: 1px;
 
     width: 100%
@@ -113,7 +113,7 @@ hr {
 }
 
 .secondSection .h22::first-letter {
-    color: blue;
+    color: rgb(217, 0, 255);
     font-size: 50px;
     /* font-size: 200%; */
 }
@@ -150,8 +150,9 @@ h2 {
     margin-bottom: 20px;
     font-size: 2rem;
  
-}.projecth1::first-letter{
-    color: blue;
+}
+.projecth1::first-letter{
+    color: rgb(16, 219, 87);
     font-size: 200%;
   
 }
