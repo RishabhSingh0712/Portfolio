@@ -1,0 +1,36 @@
+#remove html file extension https://rishabhsingh7.netlify.app/index.html
+# to https://rishabhsingh7.netlify.app/Home
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+#remove html file extension https://rishabhsingh7.netlify.app/experience.html
+# to https://rishabhsingh7.netlify.app/experience
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+#remove html file extension https://rishabhsingh7.netlify.app/techstack.html
+# tohttps://rishabhsingh7.netlify.app/techstack
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+#remove html file extension https://rishabhsingh7.netlify.app/projects.html
+# to https://rishabhsingh7.netlify.app/projects
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+#remove html file extension https://rishabhsingh7.netlify.app/research.html
+# to https://rishabhsingh7.netlify.app/research
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+#remove html file extension https://rishabhsingh7.netlify.app/education.html
+# to https://rishabhsingh7.netlify.app/education
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
