@@ -134,18 +134,18 @@ let footer = $(`
           </div>
 
 
-
-        <div class="col-lg-6 col-md-12 mb-4 mb-md-0 form-comtainer">
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0 form-comtainer">
           <div class="form-style-6">
              <div class="form-header">
                 <h6 class="display">Get in Touch</h6>
               </div>
-                  <input id="name" type="text" name="name" placeholder="Your Name" required/>
-                  <input id="email" type="email" name="email" placeholder="Email Address" required/>                  
-                  <textarea id="textArea" name="message" placeholder="Type your Message" required></textarea>
+              <form action="controller.php" method="POST">
+                  <input id="name" type="text" name="Your_Name" placeholder="Your Name" required/>
+                  <input id="email" type="email" name="Your_Email" placeholder="Email Address" required/>                  
+                  <textarea id="textArea" name="Message" placeholder="Type your Message" required></textarea>
               
                   <div id="main">
-                    <button id="lnch" type="button" value="Send" >Send</button>
+                    <button id="lnch" type="button" onclick="myFunction()" name="Submit" value="Send" >Send</button>
                     <div id="lnch_btn"><i class="fas fa-space-shuttle"></i></div>
                   </div>
                 </form>
@@ -153,7 +153,7 @@ let footer = $(`
             </div>
           </div>
         </div>
-    </div>
+</div>
 
 
     
