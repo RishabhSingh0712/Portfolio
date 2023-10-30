@@ -4,41 +4,29 @@ AOS.init();
 
 const moocs = document.querySelector(".moocs");
 const moocscards = [
-  // {
-  //   title: "React JS Tutorial",
-  //   cardImage: "assets/images/education-page/React js GL.png",
-  //   moocLink: "https://olympus.mygreatlearning.com/courses/52045/certificate",
-  // },
-  // {
-  //   title: "",
-  //   cardImage: "assets/images/education-page/bits-and-bytes.png",
-  //   moocLink: "https://coursera.org/verify/PF2WZQ2TV3FC",
-  // },
-  // {
-  //   title: "",
-  //   cardImage: "assets/images/education-page/isro-python.png",
-  //   moocLink: "https://certificate.iirs.gov.in/",
-  // },
-  // {
-  //   title: "",
-  //   cardImage: "assets/images/education-page/Google-analytics.png",
-  //   moocLink: "https://analytics.google.com/analytics/academy/certificate/G6aKau4bSuGAzMyUliv5PQ",
-  // },
-  // {
-  //   title: "",
-  //   cardImage: "assets/images/education-page/Coursera-communication.jpeg",
-  //   moocLink: "https://www.coursera.org/account/accomplishments/verify/222NNWPQ9V8R",
-  // },
-  
-
-
-
-
+  {
+    title: "Full Stack Web Development",
+    cardImage: "assets/images/education-page/FSWD.png",
+    moocLink:
+      "https://learn.pwskills.com/certificate/c0c773b9-0762-416c-9f8c-ec4a92efcf73",
+  },
+  {
+    title: "React JS",
+    cardImage: "assets/images/education-page/React.png",
+    moocLink:
+      "https://learn.ineuron.ai/certificate/0508fdd4-a4fa-4260-8475-a3ae348642f6",
+  },
+  {
+    title: "Stock Market Fundamentals",
+    cardImage: "assets/images/education-page/SM.png",
+    moocLink:
+      "https://learn.pwskills.com/certificate/f4feeb81-c7a8-462e-a72f-bc8f7d0ff925",
+  },
 ];
 
 // const experience = [
 //   {
-//     img: "assets/images/education-page/c1.png",
+//     img: "assets/images/education-page/React js GL.png",
 //   },
 //   {
 //     img: "assets/images/education-page/c2.jpg",
@@ -107,7 +95,7 @@ const bagdes = document.querySelector(".badges");
 const badgesection = [
   {
     title: "Google Developer Essentials",
-    image: "assets/images/education-page/badge1.png",
+    image: "assets/images/education-page/React js GL.png",
     description: "Earned May 20, 2020",
   },
   {
