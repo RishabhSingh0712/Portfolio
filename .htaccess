@@ -1,35 +1,35 @@
-#remove html file extension https://rishabhsingh7.netlify.app/index.html
-# to https://rishabhsingh7.netlify.app/Home
+#remove html file extension https://portfolio-rishabh-singh.vercel.app//index.html
+# to https://portfolio-rishabh-singh.vercel.app//Home
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC, L]
-#remove html file extension https://rishabhsingh7.netlify.app/experience.html
-# to https://rishabhsingh7.netlify.app/experience
+#remove html file extension https://portfolio-rishabh-singh.vercel.app//experience.html
+# to https://portfolio-rishabh-singh.vercel.app//experience
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC, L]
-#remove html file extension https://rishabhsingh7.netlify.app/techstack.html
-# tohttps://rishabhsingh7.netlify.app/techstack
+#remove html file extension https://portfolio-rishabh-singh.vercel.app//techstack.html
+# tohttps://portfolio-rishabh-singh.vercel.app//techstack
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC, L]
-#remove html file extension https://rishabhsingh7.netlify.app/projects.html
-# to https://rishabhsingh7.netlify.app/projects
+#remove html file extension https://portfolio-rishabh-singh.vercel.app//projects.html
+# to https://portfolio-rishabh-singh.vercel.app//projects
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC, L]
-#remove html file extension https://rishabhsingh7.netlify.app/research.html
-# to https://rishabhsingh7.netlify.app/research
+#remove html file extension https://portfolio-rishabh-singh.vercel.app//research.html
+# to https://portfolio-rishabh-singh.vercel.app//research
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC, L]
-#remove html file extension https://rishabhsingh7.netlify.app/education.html
-# to https://rishabhsingh7.netlify.app/education
+#remove html file extension https://portfolio-rishabh-singh.vercel.app//education.html
+# to https://portfolio-rishabh-singh.vercel.app//education
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
