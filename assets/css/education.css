@@ -2,7 +2,7 @@
 
 /* Dark and Light theme */
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -44,7 +44,7 @@ html {
 
 /* -----Education Section CSS----- */
 
- @media (max-width: 767px) {
+@media (max-width: 767px) {
   .dropdown1 {
     position: absolute;
     text-align: center;
@@ -81,7 +81,7 @@ html {
 .s2 .head {
   font-size: 2rem;
   font-weight: bold;
-} 
+}
 
 /*properties for online accreditaions(MOOCS) heading*/
 
@@ -350,7 +350,8 @@ p {
 section {
   padding: 100px 0;
 }
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 body {
@@ -367,8 +368,8 @@ h1 {
 }
 
 header {
-  background: #3F51B5;
-  color: #FFFFFF;
+  background: #3f51b5;
+  color: #ffffff;
   padding: 150px 0;
 }
 header p {
@@ -387,7 +388,7 @@ header p {
 /* Draws line */
 .timeline::before {
   content: "";
-  background: #C5CAE9;
+  background: #c5cae9;
   width: 5px;
   height: 95%;
   position: absolute;
@@ -404,18 +405,18 @@ header p {
   float: right;
   padding: 40px 30px 10px 30px;
 }
- .timeline-item:nth-child(even) .timeline-content .alignment {
-  position:absolute;
+.timeline-item:nth-child(even) .timeline-content .alignment {
+  position: absolute;
   text-align: left;
   padding-right: 5px;
-} 
+}
 .timeline-item:nth-child(even) .timeline-content .date {
   left: auto;
   right: 0;
 }
 .timeline-item:nth-child(even) .timeline-content .bnt-more {
   position: absolute;
-  right:0;
+  right: 0;
   bottom: 65px;
 }
 
@@ -443,13 +444,13 @@ header p {
   width: 45%;
   padding: 10px 30px;
   border-radius: 4px;
-/*   background: #f5f5f5;
+  /*   background: #f5f5f5;
   color: black; */
   box-shadow: 0 20px 25px 15px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: row;
   align-items: center;
-   background-image: linear-gradient(147deg, #545b62a8, black);
+  background-image: linear-gradient(147deg, #545b62a8, black);
   color: white;
 }
 
@@ -468,7 +469,7 @@ header p {
 .timeline-img {
   width: 30px;
   height: 30px;
-  background: #3F51B5;
+  background: #3f51b5;
   border-radius: 50%;
   position: absolute;
   left: 50%;
@@ -477,8 +478,8 @@ header p {
 }
 
 .bnt-more {
-  background: #3F51B5;
-  color: #FFFFFF;
+  background: #3f51b5;
+  color: #ffffff;
   padding: 8px 20px;
   text-transform: uppercase;
   font-size: 14px;
@@ -486,13 +487,15 @@ header p {
   display: inline-block;
   border-radius: 2px;
   box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
-  position: absolute; 
-  right:0;
+  position: absolute;
+  right: 0;
 }
 
-.bnt-mor:hover, .bnt-mor:active, .bnt-mor:focus {
+.bnt-mor:hover,
+.bnt-mor:active,
+.bnt-mor:focus {
   background: #32408f;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -512,7 +515,6 @@ header p {
   /*background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("https://picsum.photos/1000/800/?random") center center no-repeat;*/
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
   background-size: cover;
-
 }
 
 .timeline-img-header {
@@ -520,7 +522,6 @@ header p {
   position: relative;
   margin-bottom: 20px;
   /*background-image: url('assets/images/education-page/edTimeline1.png');*/
-
 }
 
 .timeline-img-header h2 {
@@ -534,96 +535,95 @@ header p {
 blockquote {
   margin-top: 30px;
   color: #757575;
-  border-left-color: #3F51B5;
+  border-left-color: #3f51b5;
   padding: 0 20px;
 }
 
 .date {
-  background: #FF4081;
+  background: #ff4081;
   display: inline-block;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 10px;
   position: absolute;
   top: 0;
   right: 0;
 }
 
-.alignment{
+.alignment {
   padding-left: 20px;
-  
 }
 
-    /* Media Query  header/footer */
+/* Media Query  header/footer */
 
-    @media (max-width: 768px) {
-      .collapse navbar-collapse {
-          display: flex;
-          justify-content: center;
-      }
-      .footer {
-          padding-top: 10px;
-      }
-      #navbar-content {
-          margin-top: -200px;
-          height: 120vh;
-          text-align: center;
-          transform: translateY(25%);
-      }
-      #btnScrollToTop {
-          display: none;
-      }
-    }
-    
-    @media (max-width: 414px) {
-      .collapse navbar-collapse {
-          display: flex;
-          justify-content: center;
-      }
-      #navbar-content {
-          margin-top: -180px;
-          height: 120vh;
-          text-align: center;
-          transform: translateY(25%);
-      }
-      #btnScrollToTop {
-          display: none;
-      }
-    }
-    
-    @media (max-width: 375px) {
-      .collapse navbar-collapse {
-          display: flex;
-          justify-content: center;
-      }
-      #navbar-content {
-          margin-top: -180px;
-          height: 120vh;
-          text-align: center;
-          transform: translateY(25%);
-      }
-      #btnScrollToTop {
-          display: none;
-      }
-    }
-    
-    @media (max-width: 320px) {
-      .collapse navbar-collapse {
-          display: flex;
-          justify-content: center;
-      }
-      #navbar-content {
-          margin-top: -140px;
-          height: 130vh;
-          text-align: center;
-          transform: translateY(25%);
-      }
-      .footer {
-          margin-top: 6rem;
-      }
-      #btnScrollToTop {
-          display: none;
-      }
-    }
+@media (max-width: 768px) {
+  .collapse navbar-collapse {
+    display: flex;
+    justify-content: center;
+  }
+  .footer {
+    padding-top: 10px;
+  }
+  #navbar-content {
+    margin-top: -200px;
+    height: 120vh;
+    text-align: center;
+    transform: translateY(25%);
+  }
+  #btnScrollToTop {
+    display: none;
+  }
+}
+
+@media (max-width: 414px) {
+  .collapse navbar-collapse {
+    display: flex;
+    justify-content: center;
+  }
+  #navbar-content {
+    margin-top: -180px;
+    height: 120vh;
+    text-align: center;
+    transform: translateY(25%);
+  }
+  #btnScrollToTop {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .collapse navbar-collapse {
+    display: flex;
+    justify-content: center;
+  }
+  #navbar-content {
+    margin-top: -180px;
+    height: 120vh;
+    text-align: center;
+    transform: translateY(25%);
+  }
+  #btnScrollToTop {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .collapse navbar-collapse {
+    display: flex;
+    justify-content: center;
+  }
+  #navbar-content {
+    margin-top: -140px;
+    height: 130vh;
+    text-align: center;
+    transform: translateY(25%);
+  }
+  .footer {
+    margin-top: 6rem;
+  }
+  #btnScrollToTop {
+    display: none;
+  }
+}
 
 /*  Content */
 @media only screen and (max-width: 450px) {
@@ -632,55 +632,53 @@ blockquote {
   }
 }
 
-@media only screen and (max-width:2381px){
-  .text{
-    margin-top:2rem;
+@media only screen and (max-width: 2381px) {
+  .text {
+    margin-top: 2rem;
   }
 }
 
-@media only screen and (max-width:1340px){
-  .text{
-    margin-top:4rem;
+@media only screen and (max-width: 1340px) {
+  .text {
+    margin-top: 4rem;
   }
 }
-@media(max-width:1200px){
-  .timelineHeading{
+@media (max-width: 1200px) {
+  .timelineHeading {
     font-size: 152%;
   }
-  .timelineHeading2{
+  .timelineHeading2 {
     font-size: 131%;
-  font-weight: bolder;
+    font-weight: bolder;
   }
-  .timelineHeading3{
+  .timelineHeading3 {
     font-size: 2.9ch;
   }
 }
 
-@media (max-width: 991px){
-
-  .timelineHeading{
+@media (max-width: 991px) {
+  .timelineHeading {
     font-size: 1.8ch;
-   font-weight: bold;
+    font-weight: bold;
   }
-  .date1{
+  .date1 {
     padding: 1px;
   }
-                                                  /* Second  */
-  .timelineHeading2{
+  /* Second  */
+  .timelineHeading2 {
     font-size: 94%;
   }
-  .date2{
+  .date2 {
     padding: 0px;
   }
-                                                     /* Third  */
-  .date3{
+  /* Third  */
+  .date3 {
     padding: 4px;
   }
-  footer{
+  footer {
     width: revert;
   }
 }
-
 
 @media screen and (max-width: 768px) {
   .timeline::before {
@@ -700,10 +698,10 @@ blockquote {
   .timeline .timeline-item:nth-child(even) .timeline-content {
     float: none;
   }
-  h2{
+  h2 {
     font-size: 1.75rem;
   }
-  h3{
+  h3 {
     font-size: 1.5rem;
   }
 
@@ -717,134 +715,134 @@ blockquote {
     left: -15px;
     border-width: 10px 15px 10px 0;
     border-color: transparent #f5f5f5 transparent transparent;
-  } 
+  }
 }
- 
-  @media (max-width:502px){
-    .timelineHeading2{
-      font-size: 120%;
-    }
-  }
-  @media (max-width:582px){
-    .timelineHeading2{ 
-      font-size: 117%;
-    }
-  }
-  @media (max-width:458px){
-    .timelineHeading2{
-      font-size: 106%;
-    }
-  }
-  @media (max-width:453px){
-    .timelineHeading3{
-      font-size: 142%;
-    font-weight: bold;
-    }
-    .timeline-content{
-      font-size: 84%;
-     }
-  }
 
-  @media (max-width:440px){
-    .timelineHeading3{
-      font-size: 132%;
+@media (max-width: 502px) {
+  .timelineHeading2 {
+    font-size: 120%;
+  }
+}
+@media (max-width: 582px) {
+  .timelineHeading2 {
+    font-size: 117%;
+  }
+}
+@media (max-width: 458px) {
+  .timelineHeading2 {
+    font-size: 106%;
+  }
+}
+@media (max-width: 453px) {
+  .timelineHeading3 {
+    font-size: 142%;
     font-weight: bold;
-    }
   }
-  @media (max-width:432px){
-   .timeline-content{
+  .timeline-content {
     font-size: 84%;
-   }
-    .timelineHeading3{
-      font-size: 122%;
-    }
   }
- @media(max-width:378px){
-  .container{
-    font-size: 80%;  
+}
+
+@media (max-width: 440px) {
+  .timelineHeading3 {
+    font-size: 132%;
+    font-weight: bold;
   }
- }
-  @media(max-width:346px){
-    .container{
-      font-size: 77%;
-    }
-    #name{
-      text-align: center;
-    }
-    #email{
-      text-align: center;
-    }
-    #textArea{
-      text-align: center;
-    }
+}
+@media (max-width: 432px) {
+  .timeline-content {
+    font-size: 84%;
   }
-  @media(max-width:321px){
-    .container{
-      font-size: 72%;
-    }
-    #name{
-      text-align: center;
-    }
-    #email{
-      text-align: center;
-    }
-    #textArea{
-      text-align: center;
-    }
+  .timelineHeading3 {
+    font-size: 122%;
   }
-  @media(max-width:309px){
-    .container{
-      font-size: 70%;
-    }
-    #name{
-      text-align: center;
-    }
-    #email{
-      text-align: center;
-    }
-    #textArea{
-      text-align: center;
-    }
+}
+@media (max-width: 378px) {
+  .container {
+    font-size: 80%;
   }
-  @media(max-width:292px){
-    .container{
-      font-size: 65%;
-    }
-    #name{
-      text-align: center;
-    }
-    #email{
-      text-align: center;
-    }
-    #textArea{
-      text-align: center;
-    }
+}
+@media (max-width: 346px) {
+  .container {
+    font-size: 77%;
   }
-  @media(max-width:281px){
-    .container{
-      font-size: 60%;
-    }
-    #name{
-      text-align: center;
-    }
-    #email{
-      text-align: center;
-    }
-    #textArea{
-      text-align: center;
-    }
+  #name {
+    text-align: center;
   }
-  @media(max-width:273px){
-    .container{
-      font-size: 50%;
-    }
-    #name{
-      text-align: center;
-    }
-    #email{
-      text-align: center;
-    }
-    #textArea{
-      text-align: center;
-    }
+  #email {
+    text-align: center;
   }
+  #textArea {
+    text-align: center;
+  }
+}
+@media (max-width: 321px) {
+  .container {
+    font-size: 72%;
+  }
+  #name {
+    text-align: center;
+  }
+  #email {
+    text-align: center;
+  }
+  #textArea {
+    text-align: center;
+  }
+}
+@media (max-width: 309px) {
+  .container {
+    font-size: 70%;
+  }
+  #name {
+    text-align: center;
+  }
+  #email {
+    text-align: center;
+  }
+  #textArea {
+    text-align: center;
+  }
+}
+@media (max-width: 292px) {
+  .container {
+    font-size: 65%;
+  }
+  #name {
+    text-align: center;
+  }
+  #email {
+    text-align: center;
+  }
+  #textArea {
+    text-align: center;
+  }
+}
+@media (max-width: 281px) {
+  .container {
+    font-size: 60%;
+  }
+  #name {
+    text-align: center;
+  }
+  #email {
+    text-align: center;
+  }
+  #textArea {
+    text-align: center;
+  }
+}
+@media (max-width: 273px) {
+  .container {
+    font-size: 50%;
+  }
+  #name {
+    text-align: center;
+  }
+  #email {
+    text-align: center;
+  }
+  #textArea {
+    text-align: center;
+  }
+}
