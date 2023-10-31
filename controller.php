@@ -15,7 +15,8 @@ if(isset($_POST["Submit"])) {
      $sol = mysqli_query($con, $query);
      
      if ($sol > 0) {
-      include "form.php";
+      $data=array("status"=>"Sucess");
+      echo json_encode($data);
     }
     }
     else

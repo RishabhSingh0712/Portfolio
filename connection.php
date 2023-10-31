@@ -1,6 +1,6 @@
 <?php
   
-  $hostname = "localhost";
+  $servername = "localhost";
   $user = "root";
   $password = "";
   $db = "db_get_in_touch";
