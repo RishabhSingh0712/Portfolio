@@ -156,8 +156,6 @@ let footer = $(`
 </div>
 
 
-    
-
     <div class="rounded-social-buttons tag">
     <a class="social-button twitter" href="https://twitter.com/Rishabh0712
     " target="_blank">
@@ -228,7 +226,6 @@ let footer = $(`
         <circle cx="4" cy="4" r="2"></circle>
       </svg>
     </a>
-
 
 
     <a class="social-button instagram" href="https://instagram.com/rishabh.rajput07?igshid=NGVhN2U2NjQ0Yg==
