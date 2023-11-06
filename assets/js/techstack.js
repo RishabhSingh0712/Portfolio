@@ -38,7 +38,6 @@ const techStack = [
 
 ];
 
-
 const displayTechStacksCards = () => {
   const entireCardTemplate =
   techStack.map((stack)=> {
