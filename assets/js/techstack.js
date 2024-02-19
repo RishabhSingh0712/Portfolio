@@ -34,6 +34,26 @@ const techStack = [
     langName: "Git",
     langDesc: "<li>Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.</li>",
   },
+  {
+    langImage: "assets/images/techstack-page/socketio.jpg",
+    langName: "Socket.io",
+    langDesc: "<li>Socket.io is a JavaScript library that enables real-time, bidirectional communication between clients (typically web browsers) and servers. It simplifies the process of building applications that require real-time features such as chat applications, online gaming, collaborative editing, and live updates.</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/nodejs.png",
+    langName: "Node js",
+    langDesc: "<li>Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to run server-side JavaScript code. It is built on the V8 JavaScript runtime engine, which is the same engine used by the Google Chrome browser for executing JavaScript code.</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/mongodb.png",
+    langName: "MongoDB",
+    langDesc: "<li>MongoDB is a popular, open-source NoSQL database management system that is designed to handle large amounts of data and provide high performance and scalability.</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/express.png",
+    langName: "Express",
+    langDesc: "<li>Express is a minimal and flexible web application framework for Node.js, designed to make it easier to build web and mobile applications.</li>",
+  },
 
 
 ];
