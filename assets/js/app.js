@@ -139,7 +139,7 @@ let footer = $(`
              <div class="form-header">
                 <h6 class="display">Get in Touch</h6>
               </div>
-              <form action="controller.php" method="POST">
+              <form action="home.php" method="POST">
                   <input id="name" type="text" name="Your_Name" placeholder="Your Name" required/>
                   <input id="email" type="email" name="Your_Email" placeholder="Email Address" required/>                  
                   <textarea id="textArea" name="Message" placeholder="Type your Message" required></textarea>
