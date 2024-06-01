@@ -5,10 +5,17 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Full Stack Developer",
+    title: "JUNIOR SOFTWARE DEVELOPER",
+    cardImage: "assets/images/experience-page/Frame 1.png",
+    place: "Lucknow",
+    time: "(May, 2024 - Till Date )",
+    desp: "<li>I have worked in back end in which games and some new websites have been created, as well as working in a team is beneficial.</li><li>Handled the discord community server and made some changes for the club</li>",
+  },
+  {
+    title: "FULL STACK DEVELOPER",
     cardImage: "assets/images/experience-page/Frame 1.png",
     place: "Vadodara",
-    time: "(Aug, 2023 - Till Date)",
+    time: "(Aug, 2023 - May, 2024)",
     desp: "<li>I have worked in front end in which games and some new websites have been created, as well as working in a team is beneficial.</li><li>Handled the discord community server and made some changes for the club</li>",
   },
  
