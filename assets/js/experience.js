@@ -6,10 +6,10 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "JUNIOR SOFTWARE DEVELOPER",
-    cardImage: "assets/images/experience-page/Frame 1.png",
+    cardImage: "assets/images/experience-page/takyon logo.png",
     place: "Lucknow",
     time: "(May, 2024 - Till Date )",
-    desp: "<li>I have worked in back end in which games and some new websites have been created, as well as working in a team is beneficial.</li><li>Handled the discord community server and made some changes for the club</li>",
+    desp: "<li>As a full-stack developer specializing in .NET, C#, jQuery, and SQL, I work on government projects. I specialize in building dynamic, data-driven applications that ensure seamless functionality from the back end to the front end. My work involves creating efficient, scalable solutions to meet specific client requirements while adhering to strict security and performance standards.</li>",
   },
   {
     title: "FULL STACK DEVELOPER",
