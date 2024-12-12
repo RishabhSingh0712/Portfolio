@@ -240,7 +240,7 @@ let footer = $(`
       </svg>
     </a>
 
-    <a class="social-button github" href="https://github.com/Rishabh071296
+    <a class="social-button github" href="https://github.com/Rishabh0712
     " target="_blank">
     <!-- SVG code for Github icon -->
     <svg class="github-icon-footer" width="45px" height="45px" viewBox="0 0 300 300">

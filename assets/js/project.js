@@ -11,7 +11,7 @@ const projects = [
     description: "",
     tagimg: "",
     Previewlink: "https://rishabh071296.github.io/RS7-cafe/",
-    Githublink: "https://github.com/Rishabh071296/RS7-cafe.git",
+    Githublink: "https://github.com/Rishabh0712/RS7-cafe.git",
   },
   {
     title: "Text-Converter",
@@ -19,7 +19,7 @@ const projects = [
     description: "Text-Converter built using React.js",
     tagimg: "",
     Previewlink: "https://rishabh071296.github.io/TextConverter-Reactjs/",
-    Githublink: "https://github.com/Rishabh071296/TextConverter-Reactjs.git",
+    Githublink: "https://github.com/Rishabh0712/TextConverter-Reactjs.git",
   },
   {
     title: "Netflix-clone",
@@ -27,7 +27,7 @@ const projects = [
     description: "",
     tagimg: "",
     Previewlink: "https://netflix-clu.netlify.app/",
-    Githublink: "https://github.com/Rishabh071296/Netflix-clone.git",
+    Githublink: "https://github.com/Rishabh0712/Netflix-clone.git",
   },
 
 
