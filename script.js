@@ -202,7 +202,7 @@ document.addEventListener('DOMContentLoaded', () => {
     submitBtn.disabled = true;
 
     try {
-      const response = await fetch("https://portfolio-backend-oxs0.onrender.com/api/contact", {
+      const response = await fetch("https://portfoliobackend-gdqa.onrender.com/api/contact", {
         method: "POST",
         headers: {
           'Content-Type': 'application/json',
